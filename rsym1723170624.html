@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Як зробити робочий стіл як в мене.</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+            box-sizing: border-box;
+            min-height: 100vh;
+            position: relative;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 100%;
+            max-width: 300px;
+            align-items: center;
+        }
+        .button {
+            padding: 10px 20px;
+            font-size: 16px;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            background-color: #4285f4;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            text-align: center;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .button:hover {
+            background-color: #357ae8;
+        }
+        .image-button-container {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+        }
+        .image-button {
+            background: none;
+            border: none;
+            padding: 0;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+        .image-button svg {
+            width: 50px;
+            height: 50px;
+        }
+        .image-button:hover svg {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Як зробити робочий стіл як в мене.</h1>
+    <div class="button-container">
+        <a href="https://drive.google.com/uc?export=download&id=1kBfbByXpdGvyN6E4-NooWX1z6pTqhyTt" class="button">Walpaper</a>
+        <a href="https://www.dropbox.com/scl/fi/5dqdzz7ep1iiegjbxdlj0/StartAllBack_3.7.10_setup.exe?rlkey=zf0l8lak8vfzxc9fb6uyv9kck&st=mncrijfw&dl=1" class="button">StartAllBack</a>
+        <a href="https://www.dropbox.com/scl/fi/5dqdzz7ep1iiegjbxdlj0/StartAllBack_3.7.10_setup.exe?rlkey=zf0l8lak8vfzxc9fb6uyv9kck&st=1h16gayq&dl=1" class="button">StartAllBack Windows 10</a>
+        <a href="https://nilesoft.org/download" class="button">Nilesoft Shell</a>
+        <a href="https://www.winstep.net/nexus.zip " class="button">NeXuS</a>
+        <button class="button" onclick="alert('Будь ласка вибачте, тему через переніс цього сайта на github.io було загублено');">NeXuS Theme</button> 
+        <a href="https://apps.microsoft.com/detail/9nq07fg50h2q?hl=uk-ua&gl=UA" class="button">Widgets</a>
+        <a href="https://mega.nz/file/8n0gGJSQ#9zX4vIPVKvJnpSmqAS5fri0rs8sxcA7hF6Zm04MY-jc" class="button">Колір Виділення</a>
+    </div>
+    <div class="image-button-container">
+        <button class="image-button" onclick="alert('By DimaSN');">
+            <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="32" cy="32" r="16" fill="#1c1c1c"/>
+                <text x="32" y="40" font-size="16" fill="white" text-anchor="middle" font-family="Arial, sans-serif">i</text>
+            </svg>
+        </button>
+    </div>
+</html>
