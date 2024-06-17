@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Windows 10 Theme Ever</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+            box-sizing: border-box;
+            min-height: 100vh;
+            position: relative;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 100%;
+            max-width: 300px;
+            align-items: center;
+        }
+        .button {
+            padding: 10px 20px;
+            font-size: 16px;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            background-color: #4285f4;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            text-align: center;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .button:hover {
+            background-color: #357ae8;
+        }
+        .image-button-container {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+        }
+        .image-button {
+            background: none;
+            border: none;
+            padding: 0;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+        .image-button svg {
+            width: 50px;
+            height: 50px;
+        }
+        .image-button:hover svg {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Best Windows 10 Theme Ever</h1>
+    <div class="button-container">
+        <a href="https://github.com/namazso/SecureUxTheme/releases/latest/download/ThemeTool.exe " class="button">Secure X Theme Tool</a>
+        <a href="https://github.com/niivu/Windows-10-themes/raw/main/Explorer/Explorer.zip " class="button">Theme</a>
+        <a href="https://github.com/niivu/7tsp-Icon-themes/raw/main/7tsp%20themes/7TSP%20Sweet-Rainbow.7z " class="button">Icon Pack</a>
+        <a href="https://www.dropbox.com/s/fpca85vxo6es19c/7tsp%20GUI.exe?dl=1 " class="button">7 TSP</a>
+        <a href="https://www.dropbox.com/scl/fi/lnxfyg1stxzlyt5h96m7q/OldNewExplorer-1.1.9.7z?rlkey=fveavp9hxr2m4qkx2pf9g0qn1&st=h7hktd8j&dl=1" class="button">OldNewExplorer</a>
+        <a href="https://mega.nz/file/43FiTKpY#OkW5qMEgBu4ppvuE87uG2a8O8WirU4MXh1wW2KoazcI" class="button">System Transparency</a>
+        <a href="https://www.dropbox.com/scl/fi/nc3jnvsicav8fo03ag2y7/40210ChrisAndriessen.FalconX_1.7.8.0_x64__y1dazs5f5wq00.Appx?rlkey=zqew8azdrafvx4xcjcdqu4l3i&st=a4yngda9&dl=1" class="button">TaskbarX</a>
+    </div>
+    <div class="image-button-container">
+        <button class="image-button" onclick="alert('By DimaSN');">
+            <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="32" cy="32" r="32" fill="#4285f4"/>
+                <text x="32" y="40" font-size="24" fill="white" text-anchor="middle" font-family="Arial, sans-serif">i</text>
+            </svg>
+        </button>
+    </div>
+
+    <script>
+        document.getElementById('infobutton').addEventListener('click', function() {
+            alert('Hello');
+        });
+    </script>
+</body>
+</html>
